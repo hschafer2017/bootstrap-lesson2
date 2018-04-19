@@ -1,0 +1,9 @@
+Putting CSS in a seperate style sheet vs. in the HTML
+
+There are three ways of putting CSS in: style sheet and linking to HTML, CSS in the HTML tag, and putting style in the heading. It must go after bootstrap link if you want it to override the bootstrap. CSS is a styling language, so it says how things look on the page, whereas HTML is a markup language that creates content. The preference is to do it externally. Don't put it in the tag, because it gets messy and confusing. Putting it in the head is okay if you're not adding a large amount of CSS or just styling one or two elements. 
+
+
+CSS units of measurement 
+px; %; vh; vm; em; rem; 
+
+For nested divs and em measurements, it's relative, but it's relative to the font size of its' parent. If you change the font size of the body font, then it may alter the fonts of your nested elements, if you're using em. If you want to use a relevent font size and stay consistent, use rem. Rem always goes back to the root (top-most parent).  

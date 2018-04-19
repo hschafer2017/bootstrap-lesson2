@@ -2,3 +2,21 @@
     max-width: 640px;
     margin: auto;
 }
+.carousel-caption{
+    font-size: 20px;
+    font-family: sans-serif
+}
+img{
+    transition: filter 4s linear;
+
+}
+.cliffs:hover {
+    filter: saturate(1.75) hue-rotate(-20deg);
+}
+.lake:hover {
+   filter: opacity(0.8) saturate(0.75);
+}
+.waterfall:hover{
+    filter: sepia(0.5) contrast(1);
+    
+}
